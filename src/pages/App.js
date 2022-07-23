@@ -12,6 +12,7 @@ function App() {
     <ChakraProvider theme={myTheme}>
       <Fonts/>
       <NavBar/>
+      
 
     </ChakraProvider>
   );

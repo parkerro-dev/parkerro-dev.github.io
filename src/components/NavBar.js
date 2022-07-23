@@ -2,10 +2,16 @@ import React from 'react'
 import {Box, 
     Container,  
     Heading,
-    Text,
     Flex,
     Stack,
-    useColorModeValue} from '@chakra-ui/react';
+    useColorModeValue,
+    Link,
+    MenuItem,
+    Menu,
+    MenuList,
+    IconButton,
+    MenuButton} from '@chakra-ui/react';
+    import { HamburgerIcon } from '@chakra-ui/icons';
 import { NavLink } from 'react-router-dom';
 import { ColorModeSwitcher } from '../components/ColorModeSwitcher';
 
@@ -19,17 +25,18 @@ function NavBar() {
     as='nav'
     position='fixed'
     width='100%'
-    bg={useColorModeValue('white','black')}
+    bg={useColorModeValue('white','#1a1a1a')}
     zIndex={2}
     sx={{backdropFilter: 'blur(5px)'}}>
         <Container
         maxW="container.md"
         display="flex"
-        p={2}
+        pr={2}
+        pl ={2}
         wrap="wrap"
         align="center"
         justify="space-between">
-            <Flex align="center" mr={5}>
+            <Flex align="center" mr={5} >
             <Heading size="md" letterSpacing={'tighter'}>Robert Parker</Heading>
             </Flex>
 
@@ -40,22 +47,61 @@ function NavBar() {
             alignItems='center'
             flexGrow={1}
             mt ={{base: 4, md: 0}}>
-            
-                <NavLink
-                style={({ isActive }) => {
-                    return {
-                      display: "block",
-                      margin: "1rem 0",
-                      color: isActive ? "red" : "",
-                    };}}
-                to={'/projects'}>
-                    Projects
-                </NavLink>
+                
+                    <NavLink
+                    style={({ isActive }) => {
+                        return {
+                        display: "block",
+                        margin: "1rem 0",
+                        color: isActive ? "red" : "",
+                        }}}
+                    to={'/projects'}>
+                        <Link
+                        p={3}>
+                        Project
+                        </Link>
+                    </NavLink>
+
+                    <NavLink
+                    style={({ isActive }) => {
+                        return {
+                        display: "block",
+                        margin: "1rem 0",
+                        color: isActive ? "red" : "",
+                        }}}
+                    to={'/college'}>
+                        <Link>
+                        College
+                        </Link>
+                    </NavLink>
+                
+                
 
             </Stack>
 
-            <Box flex={1} align='right'>
+            <Box flex={1} align='right' p={2}>
                 <ColorModeSwitcher justifySelf="flex-end" />
+                <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+                <Menu id="navbar-menu">
+                <MenuButton
+                    as={IconButton}
+                    icon={<HamburgerIcon />}
+                    variant="outline"
+                    aria-label="Options"
+                />
+                <MenuList bg={'black'}>
+                    <NavLink to="/">
+                    <MenuItem as={Link}>About</MenuItem>
+                    </NavLink>
+                    <NavLink to="/projects">
+                    <MenuItem as={Link}>Projects</MenuItem>
+                    </NavLink>
+                    <NavLink to="/College">
+                    <MenuItem as={Link}>College</MenuItem>
+                    </NavLink>
+                </MenuList>
+                </Menu>
+          </Box>
             </Box>
         </Container>
     </Box>
