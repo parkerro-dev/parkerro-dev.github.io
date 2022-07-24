@@ -20,7 +20,7 @@ root.render(
     <StrictMode>
       <ColorModeScript />
       <Routes>
-        <Route exact path='#' element={<App />} />
+        <Route exact path='/#' element={<App />} />
         <Route path='projects' element={<Projects />}/>
         <Route path='project' element={<ProjectPage/>}>
           <Route path=':projectId' element={<Project/>}/>
