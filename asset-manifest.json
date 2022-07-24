@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/the-website-challenge/static/js/main.744002e5.js",
-    "index.html": "/the-website-challenge/index.html",
-    "main.744002e5.js.map": "/the-website-challenge/static/js/main.744002e5.js.map"
+    "main.js": "/the-webiste-challenge/static/js/main.f22b0cc9.js",
+    "index.html": "/the-webiste-challenge/index.html",
+    "main.f22b0cc9.js.map": "/the-webiste-challenge/static/js/main.f22b0cc9.js.map"
   },
   "entrypoints": [
-    "static/js/main.744002e5.js"
+    "static/js/main.f22b0cc9.js"
   ]
 }
