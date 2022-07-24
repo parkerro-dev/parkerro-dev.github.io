@@ -18,7 +18,7 @@ function App() {
     
       <Layout>
         <Container align="center">
-          <Text>Hi, I'm a <Code>physics undergrad</Code> and a <Code>indie developer</Code>!</Text>
+          <Text>Hi, I'm a <Code>physics undergrad</Code> and an <Code>indie developer</Code>!</Text>
         </Container>
 
         <Container mt={4} pb={2} borderWidth={1} borderRadius={10} pos='relative'>
