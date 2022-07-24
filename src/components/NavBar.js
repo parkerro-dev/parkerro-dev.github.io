@@ -24,7 +24,7 @@ function NavBar() {
     position='fixed'
     width='100%'
     bg={useColorModeValue('white','#1a1a1a')}
-    zIndex={2}
+    zIndex={3}
     sx={{backdropFilter: 'blur(5px)'}}>
         <Container
         maxW="container.md"
