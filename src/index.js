@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Project from './components/Project';
 import ProjectPage from './pages/ProjectPage';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import {myTheme} from './styles/myTheme';
 
@@ -15,7 +15,7 @@ const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
   <ChakraProvider theme={myTheme}>
     <StrictMode>
       <ColorModeScript />
@@ -39,6 +39,6 @@ root.render(
       
     </StrictMode>
     </ChakraProvider>
-  </BrowserRouter>
+  </HashRouter>
   
 );
