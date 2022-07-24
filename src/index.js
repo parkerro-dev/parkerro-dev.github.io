@@ -7,12 +7,15 @@ import Projects from './pages/Projects';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ChakraProvider } from '@chakra-ui/react';
+import {myTheme} from './styles/myTheme';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
 root.render(
   <BrowserRouter>
+  <ChakraProvider theme={myTheme}>
     <StrictMode>
       <ColorModeScript />
       <Routes>
@@ -22,6 +25,7 @@ root.render(
       </Routes>
       
     </StrictMode>
+    </ChakraProvider>
   </BrowserRouter>
   
 );

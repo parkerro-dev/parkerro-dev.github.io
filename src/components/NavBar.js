@@ -14,10 +14,8 @@ import {Box,
     import { HamburgerIcon } from '@chakra-ui/icons';
 import { NavLink } from 'react-router-dom';
 import { ColorModeSwitcher } from '../components/ColorModeSwitcher';
+import Logo from './Logo';
 
-function linkComponent(){
-    const active = 1
-}
 
 function NavBar() {
   return (
@@ -37,7 +35,7 @@ function NavBar() {
         align="center"
         justify="space-between">
             <Flex align="center" mr={5} >
-            <Heading size="md" letterSpacing={'tighter'}>Robert Parker</Heading>
+                <Logo/>
             </Flex>
 
             <Stack 
@@ -53,12 +51,12 @@ function NavBar() {
                         return {
                         display: "block",
                         margin: "1rem 0",
-                        color: isActive ? "red" : "",
+                        color: isActive ? "#44355B" : "",
                         }}}
                     to={'/projects'}>
                         <Link
                         p={3}>
-                        Project
+                        Projects
                         </Link>
                     </NavLink>
 
@@ -67,10 +65,11 @@ function NavBar() {
                         return {
                         display: "block",
                         margin: "1rem 0",
-                        color: isActive ? "red" : "",
+                        color: isActive ? "#44355B" : "",
                         }}}
                     to={'/college'}>
-                        <Link>
+                        <Link
+                        p={3}>
                         College
                         </Link>
                     </NavLink>

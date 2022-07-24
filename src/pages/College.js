@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 function College() {
   return (
-    <div>College</div>
+    <Layout>
+        
+    </Layout>
   )
 }
 
