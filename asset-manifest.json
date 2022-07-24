@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/the-webiste-challenge/static/js/main.240652d6.js",
-    "index.html": "/the-webiste-challenge/index.html",
-    "main.240652d6.js.map": "/the-webiste-challenge/static/js/main.240652d6.js.map"
+    "main.js": "/the-website-challenge/static/js/main.240652d6.js",
+    "index.html": "/the-website-challenge/index.html",
+    "main.240652d6.js.map": "/the-website-challenge/static/js/main.240652d6.js.map"
   },
   "entrypoints": [
     "static/js/main.240652d6.js"
