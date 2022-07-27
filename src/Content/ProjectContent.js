@@ -9,7 +9,7 @@ let content = [
         motivations: ["Learn about website structure and functionality", "To create a porfolio", "See what my ability in JS and Web Design is"],
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
-        
+        markdown: "the-website-challenge/Markdown/WebsiteChallenge.md"
     },
 
     {

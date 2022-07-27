@@ -1,13 +1,27 @@
-import React from 'react'
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Code, Heading, Text } from '@chakra-ui/react'
+import {useEffect, useState} from 'react';
+import ReactMarkdown from 'react-markdown';
+import ChakraUIRenderer from 'chakra-ui-markdown-renderer';
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Code, Heading, Text, Container } from '@chakra-ui/react'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { useParams, Link } from "react-router-dom";
 import {getProject} from '../Content/ProjectContent';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
+
 
 function Project() {
- 
+    const [content, setContent] = useState("");
     let params = useParams();
     let project = getProject(params.projectId)
+    useEffect(()=>{
+        fetch(project.markdown)
+        .then((res)=> res.text()
+        .then((text)=> setContent(text)));
+    }, [])
+
+
+
     return(
         <>
         <Code p={2} borderRadius={10}>
@@ -21,15 +35,13 @@ function Project() {
                 </BreadcrumbItem>
             </Breadcrumb>
         </Code>
-
-        <Heading mb={2}>{project.name}</Heading>
-        <Text>{project.date}</Text>
-
-        <Text mt={5}>{project.paragraphOne}</Text>
-       
+            <ReactMarkdown rehypePlugins={[rehypeKatex]} remarkPlugins={[remarkMath]} components={ChakraUIRenderer()}  children={content} />
+        
         </>
     );
   
 }
 
 export default Project
+
+
