@@ -1,5 +1,5 @@
 import React from 'react'
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Code, Heading, Text } from '@chakra-ui/react'
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Code, Heading, Text, Container, HStack } from '@chakra-ui/react'
 import {ChevronRightIcon} from '@chakra-ui/icons'
 import { useParams, Link } from "react-router-dom";
 import {getProject} from '../Content/ProjectContent';
@@ -22,8 +22,11 @@ function Project() {
             </Breadcrumb>
         </Code>
 
-        <Heading mb={2}>{project.name}</Heading>
-        <Text>{project.date}</Text>
+        <Heading mb={2} mt={2}>{project.name}</Heading>
+        <Container>
+            <HStack><Text>{project.date}</Text> <Spacer/></HStack>
+        </Container>
+        
 
         <Text mt={5}>{project.paragraphOne}</Text>
        
