@@ -22,7 +22,7 @@ function Project() {
             </Breadcrumb>
         </Code>
 
-        <Heading>{project.name}</Heading>
+        <Heading mb={2}>{project.name}</Heading>
         <Text>{project.date}</Text>
 
         <Text mt={5}>{project.paragraphOne}</Text>
