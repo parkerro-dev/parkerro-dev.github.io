@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-website-challenge/static/css/main.cf904e93.css",
-    "main.js": "/the-website-challenge/static/js/main.acfcb309.js",
+    "main.js": "/the-website-challenge/static/js/main.cc1c8b23.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/the-website-challenge/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/the-website-challenge/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/the-website-challenge/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
@@ -64,10 +64,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/the-website-challenge/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/the-website-challenge/index.html",
     "main.cf904e93.css.map": "/the-website-challenge/static/css/main.cf904e93.css.map",
-    "main.acfcb309.js.map": "/the-website-challenge/static/js/main.acfcb309.js.map"
+    "main.cc1c8b23.js.map": "/the-website-challenge/static/js/main.cc1c8b23.js.map"
   },
   "entrypoints": [
     "static/css/main.cf904e93.css",
-    "static/js/main.acfcb309.js"
+    "static/js/main.cc1c8b23.js"
   ]
 }
