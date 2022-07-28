@@ -9,7 +9,7 @@ let content = [
         motivations: ["Learn about website structure and functionality", "To create a porfolio", "See what my ability in JS and Web Design is"],
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
-        markdown: "the-website-challenge/Markdown/WebsiteChallenge.md"
+        markdown: "the-website-challenge/Markdown/WebsiteChallenge/WebsiteChallenge.md"
     },
 
     {
@@ -17,7 +17,10 @@ let content = [
         id: "discordBot",
         date: "22/07/2022",
         author: "Robert Parker",
-        paragraphOne: "This is a work in progress"  
+        paragraphOne: "This is a work in progress" ,
+        Links: ["Source"],
+        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
+        markdown: "the-website-challenge/Markdown/DiscordBot/DiscordBot.md"
     },
 
     {
@@ -25,7 +28,10 @@ let content = [
         id: "neuralNetwork",
         date: "22/07/2022",
         author: "Robert Parker",
-        paragraphOne: "This is a work in progress"  
+        paragraphOne: "This is a work in progress" ,
+        Links: ["Source"],
+        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
+        markdown: "the-website-challenge/Markdown/NeuralNetwork/NeuralNetwork.md" 
     },
 
     {
@@ -33,7 +39,9 @@ let content = [
         id: "latexCalculator",
         date: "22/07/2022",
         author: "Robert Parker",
-        paragraphOne: "This is a work in progress"  
+        Links: ["Source"],
+        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
+        markdown: "the-website-challenge/Markdown/LatexCalculator/LatexCalculator.md"
     },
 
     {
@@ -41,7 +49,10 @@ let content = [
         id: "animatedSkyComponent",
         date: "22/07/2022",
         author: "Robert Parker",
-        paragraphOne: "This is a work in progress"  
+        paragraphOne: "This is a work in progress" ,
+        Links: ["Source"],
+        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
+        markdown: "the-website-challenge/Markdown/AnimatedSkyComponent/AnimatedSkyComponent.md" 
     }
 
 
