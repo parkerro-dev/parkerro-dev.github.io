@@ -8,7 +8,7 @@ let content = [
         paragraphtwo: "The core functionality of the website is build with the React framework and a UI framework ChakraUI.",
         motivations: ["Learn about website structure and functionality", "To create a porfolio", "See what my ability in JS and Web Design is"],
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
+        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
         markdown: "the-website-challenge/Markdown/WebsiteChallenge/WebsiteChallenge.md"
     },
 
