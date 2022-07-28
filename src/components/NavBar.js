@@ -88,7 +88,7 @@ function NavBar() {
                     variant="outline"
                     aria-label="Options"
                 />
-                <MenuList bg={'black'}>
+                <MenuList bg={useColorModeValue('white','black')}>
                     <NavLink to="/">
                     <MenuItem as={Link}>About</MenuItem>
                     </NavLink>
