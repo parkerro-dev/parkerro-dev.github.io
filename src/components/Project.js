@@ -33,7 +33,7 @@ function Project() {
                     </BreadcrumbItem>
 
                     <BreadcrumbItem isCurrentPage>
-                        <BreadcrumbLink  href='#'>{params.projectId}</BreadcrumbLink>
+                        <BreadcrumbLink  href='#'>{params.name}</BreadcrumbLink>
                     </BreadcrumbItem>
                 </Breadcrumb>
             </Code>
@@ -43,7 +43,7 @@ function Project() {
                 p={1} 
                 size='lg' 
                 as='a' 
-                href="https://www.github.com" 
+                href={params.LinkAddresses[0]} 
                 target="_blank"  >
             <HStack>
                 <Text>Source</Text>
