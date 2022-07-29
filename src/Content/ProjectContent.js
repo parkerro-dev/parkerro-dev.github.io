@@ -19,8 +19,8 @@ let content = [
         author: "Robert Parker",
         paragraphOne: "This is a work in progress" ,
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
-        markdown: "the-website-challenge/Markdown/DiscordBot/DiscordBot.md"
+        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        markdown: "parkerro-dev.github.io/Markdown/DiscordBot/DiscordBot.md"
     },
 
     {
@@ -30,8 +30,8 @@ let content = [
         author: "Robert Parker",
         paragraphOne: "This is a work in progress" ,
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
-        markdown: "the-website-challenge/Markdown/NeuralNetwork/NeuralNetwork.md" 
+        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        markdown: "parkerro-dev.github.io/Markdown/NeuralNetwork/NeuralNetwork.md" 
     },
 
     {
@@ -40,8 +40,8 @@ let content = [
         date: "22/07/2022",
         author: "Robert Parker",
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
-        markdown: "the-website-challenge/Markdown/LatexCalculator/LatexCalculator.md"
+        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        markdown: "parkerro-dev.github.io/Markdown/LatexCalculator/LatexCalculator.md"
     },
 
     {
@@ -51,8 +51,8 @@ let content = [
         author: "Robert Parker",
         paragraphOne: "This is a work in progress" ,
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/the-website-challenge"],
-        markdown: "the-website-challenge/Markdown/AnimatedSkyComponent/AnimatedSkyComponent.md" 
+        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        markdown: "parkerro-dev.github.io/Markdown/AnimatedSkyComponent/AnimatedSkyComponent.md" 
     }
 
 
