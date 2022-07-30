@@ -10,6 +10,8 @@ import ProjectPage from './pages/ProjectPage';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import {myTheme} from './styles/myTheme';
+import NotePage from './pages/NotePage';
+import Note from './components/Note';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -25,8 +27,10 @@ root.render(
         <Route path='project' element={<ProjectPage/>}>
           <Route path=':projectId' element={<Project/>}/>
         </Route>
-        
-        <Route path='college' element={<College />} />
+        <Route path='college' element={<College />}/>
+        <Route path='note' element={<NotePage />}>
+          <Route path=':noteId' element={<Note/>}/>
+        </Route>
         <Route
         path="*"
         element={

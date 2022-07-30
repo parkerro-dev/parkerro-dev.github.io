@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import ChakraUIRenderer from 'chakra-ui-markdown-renderer';
 import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Code, Heading, Text, Container, IconButton, HStack, Spacer, } from '@chakra-ui/react'
 import {ChevronRightIcon} from '@chakra-ui/icons'
-import { useParams, Link, Outlet } from "react-router-dom";
+import { useParams, Link} from "react-router-dom";
 import {getProject} from '../Content/ProjectContent';
 import { IoLogoGithub } from 'react-icons/io';
 import remarkMath from 'remark-math';
@@ -55,7 +55,7 @@ function Project() {
         </HStack>
 
             <ReactMarkdown rehypePlugins={[rehypeKatex]} remarkPlugins={[remarkMath, [wikiLinkPlugin,  {hrefTemplate: (permalink) => `#/project/${permalink}`}]]} remarkPluginOptions={[]} components={ChakraUIRenderer()}  children={content} /> 
-        <Outlet/>
+        
         </>
     );
   
