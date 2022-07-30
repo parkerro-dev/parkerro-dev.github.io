@@ -4,15 +4,15 @@ let content = [
         id: "website",
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
-        markdown: "parkerro-dev.github.io/Markdown/WebsiteChallenge/WebsiteChallenge.md"
+        markdown: "/Markdown/WebsiteChallenge/WebsiteChallenge.md"
     },
 
     {
         name: "Discord Bot",
-        id: "discordBot",
+        id: "discordbot",
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
-        markdown: "parkerro-dev.github.io/Markdown/DiscordBot/DiscordBot.md"
+        markdown: "/Markdown/DiscordBot/DiscordBot.md"
     },
 
     {

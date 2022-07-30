@@ -14,5 +14,5 @@ The functionality of this website is built with the React Framework using React-
 The project posts are rendered with React-Markdown, using remark and rehype plugins for Tex rendering (like this $\frac{\textrm{because markdown}}{\textrm{cannot do this}}$ by itself).
 
 
-
+[[DiscordBot]]
 
