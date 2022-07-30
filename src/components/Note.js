@@ -7,8 +7,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 import ChakraUIRenderer from 'chakra-ui-markdown-renderer';
-import { ColorModeScript } from '@chakra-ui/react';
-import { Text, ChakraProvider, Box } from '@chakra-ui/react';
+import { Text, ThemeProvider, Box,  ColorModeScript} from '@chakra-ui/react';
 import {notesTheme} from '../styles/notesTheme';
 
 
@@ -23,12 +22,9 @@ function Note() {
         .then((res)=> res.text()
         .then((text)=> setContent(text)))})
   return (
-    <>
-    <Text> Test </Text>
-    <Box id={'bob'}>
-    <ChakraProvider theme={notesTheme} cssVarsRoot={'#bob'}>
+    
+    <ThemeProvider theme={notesTheme}>
       <ColorModeScript/>
-      
       <ReactMarkdown rehypePlugins={[rehypeKatex]}
           remarkPlugins={[remarkMath, 
               remarkGfm, 
@@ -36,11 +32,7 @@ function Note() {
                   {hrefTemplate: (permalink) => `#/note/${permalink}`}]]}
           components={ChakraUIRenderer()}
           children={content}/>
-    </ChakraProvider>
-    </Box>
-    
-        
-    </>
+    </ThemeProvider>
   ) 
 }
 
