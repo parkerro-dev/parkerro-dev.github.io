@@ -20,7 +20,7 @@ function Projects() {
                         <ProjectItem  
                         title="This Website" 
                         lang="javascript"
-                        prog='65'/>
+                        prog='75'/>
                     </Box>
                     <Box as={Link} to={'/project/discordBot'}>
                         <ProjectItem 

@@ -10,6 +10,8 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import wikiLinkPlugin from 'remark-wiki-link';
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
+import { ThemeProvider } from '@emotion/react';
+import { notesTheme } from '../styles/notesTheme';
 
 
 function Project() {
@@ -53,9 +55,9 @@ function Project() {
             </HStack>
             </Box>
         </HStack>
-
+            <ThemeProvider theme={notesTheme}>
             <ReactMarkdown rehypePlugins={[rehypeKatex]} remarkPlugins={[remarkMath, [wikiLinkPlugin,  {hrefTemplate: (permalink) => `#/project/${permalink}`}]]} remarkPluginOptions={[]} components={ChakraUIRenderer()}  children={content} /> 
-        
+            </ThemeProvider>
         </>
     );
   

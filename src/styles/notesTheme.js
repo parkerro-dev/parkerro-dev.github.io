@@ -3,11 +3,7 @@ import {mode} from "@chakra-ui/theme-tools"
 
 
 
-const styles = {
-    
 
-
-}
 
 
 const config = {
@@ -20,11 +16,35 @@ const fonts = {
 }
 
 export const notesTheme = extendTheme({config, 
- styles, fonts, components: {
-    Heading: {
-        baseStyle:{
-        color: 'red'
-    }},
+ fonts, 
+ components: {
+    Heading: ({
+        sizes:{
+            '2xl': { size: 'lg',
+            color: 'red.300'},
+
+            xl: {
+                size: 'lg',
+                color: 'green.400'
+            },
+
+            lg: {
+                color: 'red.300'
+            },
+
+            md:{
+                color: 'green.400'
+            },
+
+            sm: {
+                color: 'green.300'
+            },
+
+            xs: {
+                color: 'purple.300'
+            }
+    },
+}),
     Link: {
-        baseStyle:{color: 'blue'}
+        baseStyle:{color: 'blue.300'}
     }}})
