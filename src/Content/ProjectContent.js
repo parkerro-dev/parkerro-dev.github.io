@@ -20,7 +20,7 @@ let content = [
         id: "neuralNetwork",
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
-        markdown: "parkerro-dev.github.io/Markdown/NeuralNetwork/NeuralNetwork.md" 
+        markdown: "/Markdown/NeuralNetwork/NeuralNetwork.md" 
     },
 
     {
@@ -28,7 +28,7 @@ let content = [
         id: "latexCalculator",
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
-        markdown: "parkerro-dev.github.io/Markdown/LatexCalculator/LatexCalculator.md"
+        markdown: "/Markdown/LatexCalculator/LatexCalculator.md"
     },
 
     {
@@ -36,7 +36,7 @@ let content = [
         id: "animatedSkyComponent",
         Links: ["Source"],
         LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
-        markdown: "parkerro-dev.github.io/Markdown/AnimatedSkyComponent/AnimatedSkyComponent.md" 
+        markdown: "/Markdown/AnimatedSkyComponent/AnimatedSkyComponent.md" 
     }
 
 
