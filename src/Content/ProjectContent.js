@@ -3,7 +3,7 @@ let content = [
         name: "My Website",
         id: "website",
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        Link : "https://github.com/parkerro-dev/parkerro-dev.github.io",
         markdown: "/Markdown/WebsiteChallenge/WebsiteChallenge.md"
     },
 
@@ -11,7 +11,7 @@ let content = [
         name: "Discord Bot",
         id: "discordbot",
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        Link : "github.com/parkerro-dev/parkerro-dev.github.io",
         markdown: "/Markdown/DiscordBot/DiscordBot.md"
     },
 
@@ -19,7 +19,7 @@ let content = [
         name: "Neural Network",
         id: "neuralNetwork",
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        Link : "https://github.com/parkerro-dev/parkerro-dev.github.io",
         markdown: "/Markdown/NeuralNetwork/NeuralNetwork.md" 
     },
 
@@ -27,7 +27,7 @@ let content = [
         name: "Latex Calculator",
         id: "latexCalculator",
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        Link : "https://github.com/parkerro-dev/parkerro-dev.github.io",
         markdown: "/Markdown/LatexCalculator/LatexCalculator.md"
     },
 
@@ -35,7 +35,7 @@ let content = [
         name: "Animated Sky Component",
         id: "animatedSkyComponent",
         Links: ["Source"],
-        LinkAddresses: ["https://github.com/parkerro-dev/parkerro-dev.github.io"],
+        Link : "https://github.com/parkerro-dev/parkerro-dev.github.io",
         markdown: "/Markdown/AnimatedSkyComponent/AnimatedSkyComponent.md" 
     }
 

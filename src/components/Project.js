@@ -47,7 +47,7 @@ function Project() {
                 p={1} 
                 size='lg' 
                 as='a' 
-                href={"www.google.com"} 
+                href={project.Link} 
                 target="_blank"  >
             <HStack>
                 <Text>Source</Text>
