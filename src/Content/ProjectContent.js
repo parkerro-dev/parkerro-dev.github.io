@@ -8,11 +8,11 @@ let content = [
     },
 
     {
-        name: "Discord Bot",
-        id: "discordbot",
+        name: "2D Physics Engine",
+        id: "twoDimPhysicsEngine",
         Links: ["Source"],
-        Link : "github.com/parkerro-dev/parkerro-dev.github.io",
-        markdown: "/Markdown/DiscordBot/DiscordBot.md"
+        Link : "https://github.com/parkerro-dev/physics-engine",
+        markdown: "/Markdown/TwoDimPhysicsEngine/TwoDimPhysicsEngine.md"
     },
 
     {

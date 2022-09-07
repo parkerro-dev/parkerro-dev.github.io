@@ -22,11 +22,11 @@ function Projects() {
                         lang="javascript"
                         prog='75'/>
                     </Box>
-                    <Box as={Link} to={'/project/discordBot'}>
+                    <Box as={Link} to={'/project/twoDimPhysicsEngine'}>
                         <ProjectItem 
-                        title="Discord Bot" 
-                        lang="javascript"
-                        prog='0'/>
+                        title="2D Physics Engine" 
+                        lang="python"
+                        prog='50'/>
                     </Box>
                     <Box as={Link} to={'/project/neuralNetwork'}>
                         <ProjectItem 
@@ -53,7 +53,7 @@ function Projects() {
             </Thead>
             <Tbody>
                 <Tr>
-                    <Td><Link to='/project/animatedSkyComponent'>Animated Sky Component</Link></Td>
+                    <Td><Link to='/project/animatedSkyComponent'>Sun Clock React Component</Link></Td>
                     <Td>javascript</Td>
                 </Tr>
             </Tbody>
