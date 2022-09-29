@@ -47,7 +47,7 @@ function Projects() {
             </Thead>
             <Tbody>
                 <Tr>
-                    <Td><Link to='/project/website'>This Website</Link></Td>
+                    <Td><Code p={1}><Link to='/project/website'>This Website</Link></Code></Td>
                     <Td>javascript</Td>
                 </Tr>
             </Tbody>
