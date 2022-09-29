@@ -16,12 +16,6 @@ function Projects() {
                 direction='row' 
                 gap={10} 
                 wrap='wrap'>
-                    <Box as={Link} to={'/project/website'}>
-                        <ProjectItem  
-                        title="This Website" 
-                        lang="javascript"
-                        prog='75'/>
-                    </Box>
                     <Box as={Link} to={'/project/twoDimPhysicsEngine'}>
                         <ProjectItem 
                         title="2D Physics Engine" 
@@ -53,7 +47,7 @@ function Projects() {
             </Thead>
             <Tbody>
                 <Tr>
-                    <Td><Link to='/project/animatedSkyComponent'>Sun Clock React Component</Link></Td>
+                    <Td><Link to='/project/website'>This Website</Link></Td>
                     <Td>javascript</Td>
                 </Tr>
             </Tbody>
