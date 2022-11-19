@@ -18,3 +18,9 @@ The program runs using pygame, a low level python package often used in game dev
 
 The physics engine is composed of three main "surfaces" inside of the UI, theres the Engine Surface, the Side Panel Surface, and the Console Surface. 
 ![Physics Engine Example](./Markdown/TwoDimPhysicsEngine/photos/physicsEngineSS.png)
+
+All of these surfaces have their own methods which can be used to interact with the scene. They show different details about the objects and how they are moving during run time.
+
+Currently the simulator is able to run 1-D elastic collisions with bouncing and energy dissipation. This is done during the simulation loop which for 1-D is an okay method but to move into 2-D collisions and motion running it parallel to the simulation loop would be more favourable. However, as it is the simulation runs as expected.
+
+This project is teaching me the how to build a program from the ground up, the struggles that come with making your own UI, and implementing it with the functionality of the program.
