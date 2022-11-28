@@ -1,4 +1,4 @@
-import { Flex, Text, Box, Heading, Table, Tr, Th, Thead, Tbody, Td } from '@chakra-ui/react'
+import { Flex, Text, Box, Heading, Table, Tr, Th, Thead, Tbody, Td, Code } from '@chakra-ui/react'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Layout from '../components/Layout'
